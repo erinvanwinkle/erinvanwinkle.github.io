@@ -2,7 +2,7 @@ var metas = document.getElementsByTagName('meta');
 var i;
 window.onload = function() {
 	if(!window.location.hash) {
-		window.location = window.location + '#loaded';
+		window.location = window.location + '#refreshed';
 		window.location.reload();
 	}
 }
