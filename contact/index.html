@@ -11,37 +11,36 @@
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
+
+
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.10.2.js"></script>
   </head>
   <body>
-    <div class="wrapper">
-      <header>
-		<center>
-        <h1>Erin VanWinkle<br>Piano Studio</h1>
-        <p>Drink some water and sit down at the piano.</p>
-	
-		<img src="../images/Erin.jpg" alt="Erin VanWinkle" />
-		
-		<p class="links"><a href="http://erinvanwinkle.github.io">Professional Bio</a><br>
-        <a href="http://erinvanwinkle.github.io/philosophy">Teaching Philosophy</a><br>
-		<a href="http://1drv.ms/1vFT63a" target="_blank">Studio Policy</a><br>
-		<a href="http://erinvanwinkle.github.io/students">For Students</a><br>
-		<a href="http://erinvanwinkle.github.io/parents">For Parents</a><br>
-		<a href="http://1drv.ms/1wpi5W3">Registration</a><br>
-		<a href="http://erinvanwinkle.github.io/contact">Contact</a><br>
-		</p>
+    <div id="header"></div>
 
-
-      </header>
+    <div id="content">
       <section>
         <h3>
-			<a name="contact" class="anchor" href="#contact"><span class="octicon octicon-link"></span></a>Contact</h3>
-			<a href="mailto:erin@erinvanwinkle.com">erin@erinvanwinkle.com</a>
-			
-
-      <footer>
-      </footer>
-      </section>
+			     <a name="contact" class="anchor" href="#contact"><span class="octicon octicon-link"></span></a>Contact Info:
+        </h3>
+        <p>
+			     <a href="mailto:erin@erinvanwinkle.com">erin@erinvanwinkle.com</a><br>
+          <b>(321) 270-3369</b> 
+        </p>
     </div>
+
+		<div id="footer"></div>
+
+
+
+      </section>
+
+      <script> 
+      //$(function(){
+        $("#header").load("header.html"); 
+      //}); 
+    </script>
+      
     <script src="../javascripts/scale.fix.js"></script>
               <script type="text/javascript">
             var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
