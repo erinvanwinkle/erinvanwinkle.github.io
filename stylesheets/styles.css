@@ -176,7 +176,7 @@ hr {
   margin:0 0 20px;
 }
 
-footer {
+#footer {
   width:270px;
   float:bottom;
   position:fixed;
@@ -190,7 +190,7 @@ footer {
     margin:0;
   }
   
-  #header, section, footer {
+  #header, section, #footer {
     float:none;
     position:static;
     width:auto;
