@@ -11,9 +11,14 @@
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
-
-
-    <script type="text/javascript" src="//code.jquery.com/jquery-1.10.2.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.10.2.js">
+    </script>
+    <script> 
+      $(function(){
+        $("#header").load("../templates/header.html"); 
+      }); 
+    </script>
+   
   </head>
   <body>
     <div id="header"></div>
@@ -35,11 +40,7 @@
 
       </section>
 
-      <script> 
-      //$(function(){
-        $("#header").load("../templates/header.html"); 
-      //}); 
-    </script>
+
 
     <script src="../javascripts/scale.fix.js"></script>
               <script type="text/javascript">
