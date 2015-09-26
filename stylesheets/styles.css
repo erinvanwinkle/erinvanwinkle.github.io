@@ -196,7 +196,7 @@ footer {
     width:auto;
   }
   
-  header {
+  div.header {
     padding-right:320px;
   }
   
@@ -223,7 +223,7 @@ footer {
     word-wrap:break-word;
   }
   
-  header {
+  div.header {
     padding:0;
   }
   
