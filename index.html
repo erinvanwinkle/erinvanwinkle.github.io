@@ -11,29 +11,17 @@
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.10.2.js">
+    </script>
+    <script> 
+      $(function(){
+        $("#header").load("templates/header.html"); 
+      }); 
+    </script> 
   </head>
   <body>
     <div class="wrapper">
-      <header>
-	  
-        <center>
-          <h1>Erin VanWinkle<br>
-            Piano Studio
-          </h1>
-          <p>Drink some water and sit down at the piano.</p>
-      		<img src="images/Erin.jpg" alt="Erin VanWinkle" />
-      		
-      		<p class="links">
-            <a href="http://erinvanwinkle.github.io">Professional Bio</a><br>
-            <a href="http://erinvanwinkle.github.io/philosophy">Teaching Philosophy</a><br>
-        		<a href="http://1drv.ms/1vFT63a" target="_blank">Studio Policy</a><br>
-        		<a href="http://erinvanwinkle.github.io/students">For Students</a><br>
-        		<a href="http://erinvanwinkle.github.io/parents">For Parents</a><br>
-        		<a href="http://1drv.ms/1wpi5W3">Registration</a><br>
-        		<a href="http://erinvanwinkle.github.io/contact">Contact</a><br>
-      		</p>
-    		</center>
-      </header>
+      <div id="header"></div>
       <section>
 			
 			<h3><a name="erin-bio" class="anchor" href="#erin-bio"><span class="octicon octicon-link"></span></a>Erin's Professional Bio
