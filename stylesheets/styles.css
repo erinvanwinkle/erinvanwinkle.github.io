@@ -190,13 +190,13 @@ footer {
     margin:0;
   }
   
-  header, section, footer {
+  #header, section, footer {
     float:none;
     position:static;
     width:auto;
   }
   
-  div.header {
+  #header {
     padding-right:320px;
   }
   
@@ -223,7 +223,7 @@ footer {
     word-wrap:break-word;
   }
   
-  div.header {
+  #header {
     padding:0;
   }
   
