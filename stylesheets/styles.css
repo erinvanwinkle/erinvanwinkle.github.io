@@ -190,7 +190,7 @@ footer {
     margin:0;
   }
   
-  header, section, footer {
+  div.header, section, footer {
     float:none;
     position:static;
     width:auto;
