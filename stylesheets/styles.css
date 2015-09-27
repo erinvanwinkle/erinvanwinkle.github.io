@@ -180,6 +180,7 @@ hr {
   width:270px;
   float:bottom;
   position:fixed;
+
   bottom:0px;
 }
 
@@ -190,7 +191,7 @@ hr {
     margin:0;
   }
   
-  #header, section, footer {
+  #header, section, #footer {
     float:none;
     position:static;
     width:auto;
@@ -227,6 +228,11 @@ hr {
     padding:0;
   }
   
+    #footer {
+  float:bottom;
+  position:relative;
+  }
+  
   header ul, header p.view {
     position:static;
   }
@@ -243,6 +249,10 @@ hr {
   
   header ul {
     display:none;
+  }
+  #footer {
+      float:bottom;
+      position:relative;
   }
 }
 
