@@ -179,7 +179,7 @@ hr {
 #footer {
   width:270px;
   float:bottom;
-  position:fixed;
+  position:float;
   bottom:0px;
 }
 
